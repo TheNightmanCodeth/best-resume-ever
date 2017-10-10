@@ -98,6 +98,14 @@
       <div>{{person.position}}</div>
     </div>
 
+    <div class="section-headline">{{ lang.headings.about }}</div>
+    <div class="block">
+      <div class="block-helper"></div>
+      <p class="info">
+        {{person.about}}
+      </p>
+    </div>
+
     <div class="section-headline">{{ lang.headings.experience }}</div>
     <div class="block" v-for="experience in person.experience">
       <div class="block-helper"></div>
@@ -140,7 +148,7 @@ a {
   cursor:pointer;
 }
 .description-personal {
-  margin-left:20px;
+  margin-let:20px;
   margin-top:20px;
   padding-right:40px;
   text-align:justify;

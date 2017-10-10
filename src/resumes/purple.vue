@@ -33,8 +33,9 @@
             <h2 id="education-title">{{ lang.headings.education }}</h2>
             <div class="spacer"></div>
             <div class="education" v-for="education in person.education">
-                <h2 class="education-description">{{education.description}}</h2>
-                <p><span class="degree">{{education.degree}} | </span><span class="education-timeperiod">{{education.timeperiod}}</span></p>
+                <h2 class="education-description">{{education.degree}}</h2>
+                <p><span class="degree">{{education.description}}  </span></p>
+	        <p><span class="education-timeperiod">{{education.timeperiod}}</span></p>
             </div>
         </div>
         <div id="skills-container" v-if="person.skills != []">

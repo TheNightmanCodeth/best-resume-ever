@@ -5,7 +5,7 @@ const pt = {
     experience: 'Experiência Profissional',
     education: 'Educação',
     skills: 'Competências',
-    about: 'Sobre mim'
+    about: 'About me' // Translation needed!
   }
 };
 export default pt;

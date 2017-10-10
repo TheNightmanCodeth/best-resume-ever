@@ -1,44 +1,37 @@
 /* eslint-disable */
 export const PERSON = {
   name: {
-    first: 'John',
+    first: 'Joseph',
     middle: '',
-    last: 'Doe',
+    last: 'Diragi',
   },
-  about: 'Hi, my name is John Doe. I\'m just about the most boring type of person you could possibly imagine. I like collecting leaves from the tree in my back yard and documenting each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.',
-  position: 'Software Developer',
+  about: 'Hi, my name is Joseph Diragi. I\'m a software engineering student at the Southern Polytechnic College of Computing and Software Engineering. In my free time, I like contributing to open source software projects, writing mobile apps and websites, and playing video games with my friends.',
+  position: 'Software Engineer',
   birth: {
-    year: 1990,
+    year: 1997,
     location: 'New York'
   },
   experience: [{
-      company: 'Company A',
-      position: 'Developer',
-      timeperiod: 'since January 2016',
-      description: 'Programming and watching cute cat videos.'
-    },
-    {
-      company: 'Company B',
-      position: 'Frontend Developer',
-      timeperiod: 'January 2015 - December 2015',
-      description: 'Fulfillment of extremely important tasks.'
-    },
-    {
-      company: 'Company C',
-      position: 'Trainee',
-      timeperiod: 'March 2014 - December 2014',
-      description: 'Making coffee and baking cookies.'
+      company: 'UpStart Hackathon',
+      position: 'First Place',
+      timeperiod: 'March 2017',
+      description: 'Finished first place for a machine-learning algorithm to classify insurance documents using Google OCR APIs. I was responsible for programming the server backend including serving static HTML and passing images to Google\'s OCR service.'
     }
   ],
   education: [{
-      degree: 'Master of Arts',
-      timeperiod: 'March 2012 - December 2013',
-      description: 'Major in Hacking and Computer Penetration, University A, New York, USA.'
+      degree: 'Intro to Software Engineering',
+      timeperiod: 'Spring 2016',
+      description: 'Introduction to the Software Development Lifecycle.'
     },
     {
-      degree: 'Bachelor of Science',
-      timeperiod: 'March 2009 - December 2011',
-      description: 'Major in Engineering, University B, Los Angeles, USA.'
+      degree: 'Computer Architecture',
+      timeperiod: 'Fall 2017',
+      description: 'How a computer interprets software from binary to assembly.'
+    },
+    {
+      degree: 'Computer Operating Systems',
+      timeperiod: 'Spring 2017',
+      description: 'How computers interact with hardware using software.'
     }
   ],
   // skill level goes 0 to 100
@@ -56,33 +49,33 @@ export const PERSON = {
     },
     {
       name: 'Node.js',
-      level: '93'
+      level: '89'
     },
     {
-      name: 'Angular 2',
-      level: '60'
-    },
-    {
-      name: 'TypeScript',
-      level: '80'
-    },
-    {
-      name: 'ES.Next',
-      level: '70'
-    },
-    {
-      name: 'Docker',
+      name: 'Linux',
       level: '99'
+    },
+    {
+      name: 'Python',
+      level: '90'
+    },
+    {
+      name: 'Android',
+      level: '95'
+    },
+    {
+      name: 'Kotlin',
+      level: '89'
     }
   ],
-  skillDescription: 'Also proficient in Adobe Photoshop and Illustrator, grew up bilingual (English and Klingon).',
+  skillDescription: 'Also proficient in Linux sysadmin and server maintenance. Familiar with many variations of the SDLC.',
   contact: {
-    email: 'john.doe@email.com',
-    phone: '0123 456789',
-    street: '1234 Broadway',
-    city: 'New York',
-    website: 'johndoe.com',
-    github: 'johnyD'
+    email: 'joyod3@gmail.com',
+    phone: '(631) 576-6115',
+    street: '112 Rolling Green',
+    city: 'Peachtree City',
+    website: 'http://thenightmancodeth.me',
+    github: 'TheNightmanCodeth'
   },
-  lang: 'en' // en, de, fr, pt, cn, it, es, th, pt-br, ru, sv, id, hu
+  lang: 'en' // en, de, fr, pt, cn, it
 };
